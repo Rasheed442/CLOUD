@@ -1,0 +1,83 @@
+.host{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color:  rgb(7, 7, 47);
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 70px;
+    padding-left: 13rem;
+}
+.container img{
+    width: 500px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.learn{
+    display: flex;
+    gap: 10px;
+    color: orangered;
+    cursor: pointer;
+}
+.control img{
+    width: 40rem;
+}
+.control{
+    display: flex;
+    gap: 6rem;
+}
+.space{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.panel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 2rem;
+    background-color: black;
+    color: white;
+    clip-path: polygon(0 0,100% 0,100% 100%,0 90%);
+}
+.friend{
+    display: flex;
+    gap: 20px;
+}
+
+@media screen and (orientation:portrait) {
+    .host{
+        font-size: 12px;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        padding-left: 2rem;
+    }
+    .container img{
+        width: 20rem;
+    }
+    .control{
+        display: flex;
+        flex-direction: column;
+    }
+    .control img{
+        width: 20rem;
+    }
+    .host{
+        text-align: center;
+    }
+    .panel{
+        height: 110rem;
+    }
+}

@@ -1,0 +1,70 @@
+.container img{
+    width: 10rem;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    padding: 20px;
+    padding-right: 10rem;
+}
+.container h2{
+   color: purple;
+}
+.navlink {
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.navlink a{
+    transition: 0.3s;
+        color:white;
+
+}
+.navlink a:hover{
+    color: red;
+    transform:rotate(360deg);
+}
+.navmenu{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 4.5rem;
+    background-color:purple;
+    color: white;
+    left: 0;
+    width: 20rem;
+    height: 100vh;
+    line-height: 90px;
+    padding: 20px;
+}
+.navmenu a{
+    border-bottom: 1px solid purple;
+    cursor: pointer;
+    transition: 0.5s;
+    color:white;
+}
+.navmenu a:hover{
+    color: red;
+}
+.icon{
+    color: white;
+    font-size: 30px;
+    display: none;
+}
+
+@media screen and (orientation: portrait) {
+    .navlink{
+        display: none;
+    }
+    .icon{
+        display: block;
+        cursor: pointer;
+    }
+    .container{
+        padding-right: 1rem;
+    }
+    
+}
