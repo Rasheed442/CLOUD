@@ -2,10 +2,11 @@ import React, {useState, useEffect} from 'react'
 import styles from '../styles/Home.module.css'
 import {BsSearch} from 'react-icons/bs'
 import {AiOutlineCheck} from 'react-icons/ai'
+import Image from 'next/image'
 import Aos from 'aos'
 import Hosting from '../components/Hosting'
 import 'aos/dist/aos.css'
-function index() {
+function Index() {
    useEffect(() =>{ 
       Aos.init({duration: 2000});
   }, []);
@@ -18,7 +19,11 @@ function index() {
             <button>Get Started</button>
          </div>
 
-         <img data-aos='fade-up' src='banner.webp'/>
+         <Image
+         priority
+         width={400}
+         height={400}
+         data-aos='fade-up' src='/banner.webp'/>
      </div>
 
         <div className={styles.main} data-aos='fade-up'>
@@ -106,4 +111,4 @@ function index() {
   )
 }
 
-export default index
+export default Index
