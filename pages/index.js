@@ -18,12 +18,15 @@ function Index() {
             <h4>Deploy your website in less than 60 seconds</h4>
             <button>Get Started</button>
          </div>
-
+    <div className={styles.banner}>
          <Image
          priority
-         width={400}
-         height={400}
-         data-aos='fade-up' src='/banner.webp'/>
+         width={500}
+         height={500}
+         data-aos='fade-up' src='/banner.webp'
+         
+         />
+      </div>
      </div>
 
         <div className={styles.main} data-aos='fade-up'>

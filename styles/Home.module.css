@@ -1,6 +1,6 @@
 .container{
   display: flex;
-  gap:70px;
+  gap:50px;
   padding: 10rem;
   background-color: black;
   color: white;
@@ -127,7 +127,7 @@ cursor: pointer;
     flex-direction: column;
     padding-left: 1rem;
   }
-  .container img{
+  .banner{
     width: 20rem;
   }
   .search{
@@ -157,7 +157,7 @@ cursor: pointer;
   .slide{
     display: flex;
     flex-direction: column;
-    padding-left: 10px;
+    padding-left: 30px;
   }
   .content{
     padding:50px;

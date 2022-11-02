@@ -12,7 +12,7 @@ function Feed() {
                 priority
                 width={400}
                 height={400}
-                src='/bin5.jpg'/>
+                src='/pics.jpg'/>
                <div className={style.container}>
                 <h3>Lorem ipsum dolor, sit amet consectetur<br/> adipisicing elit. Sunt eaque magni tenetur
                     ex,<br/> vero corrupti ducimus fugit cumque commodi<br/> earum. </h3>
